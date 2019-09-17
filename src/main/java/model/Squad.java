@@ -1,17 +1,18 @@
+package model;
 
-public class Hero {
+public class Squad {
+
     private String hName ;
     private String hAge;
-    private String hSuperpower;
+    private String hStrength;
     private String hWeakness;
     private String hCause;
 
-    public Hero (String name, String age, String superpower, String weakness, String cause) {
+    public Squad(String name, String age, String strength, String weakness, String cause) {
         this.hName = name ;
         this.hAge = age;
-        this.hSuperpower = superpower;
+        this.hStrength = strength;
         this.hWeakness = weakness;
-        this.hCause = cause;
     }
     public String gethName(){
         return hName;
@@ -20,17 +21,14 @@ public class Hero {
         return hAge;
     }
 
-    public String gethSuperpower(){
-        return hSuperpower;
+    public String gethStrength(){
+        return hStrength;
     }
 
     public String gethWeakness(){
         return hWeakness;
     }
 
-    public String gethCause(){
-        return hCause;
-    }
-
 
 }
+

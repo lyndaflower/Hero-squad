@@ -1,0 +1,52 @@
+{{#partial "title" }}
+    Fill the form to add your squad
+{{/partial}}
+
+<!--hero.hbs.-->
+{{#partial "content"}}
+
+    <div class="  navigation">
+        <nav id="navbar" class="">
+            <div class="nav-wrapper">
+                <ul id="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href='/hero'>create hero</a></li>
+                    <li><a href='/squad1'>create squad</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="stylee">
+            <center>
+                <h1> ENTER DETAILS</h1>
+                <em>Here we go recruit your squad!!</em>
+                <form method="post" action='squad2'>
+                    <div class="form-group">
+                        <label for="name">Enter Hero Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Enter Hero Age</label>
+                        <input type="number" id="age" name="age" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="superpower">Enter Hero Superpower</label>
+                        <input type="text" id="superpower" name="superpower" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="weakness">Enter Hero Weakness</label>
+                        <input type="text" id="weakness" name="weakness" class="form-control" required>
+                    </div>
+
+                    <button type="submit" style="background-color:#330000 ;">Submit</button>
+                </form>
+            </center>
+        </div>
+    </div>
+
+    <!--hero.hbs.-->
+{{/partial}}
+
+{{> layout.hbs}}

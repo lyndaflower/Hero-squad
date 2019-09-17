@@ -1,35 +1,49 @@
 {{#partial "title" }}
-    Add a herosquad you want
+    Fill the form to add your hero
 {{/partial}}
 
 <!--hero.hbs.-->
 {{#partial "content"}}
 
+    <div class="  navigation">
+        <nav id="navbar" class="">
+            <div class="nav-wrapper">
+                <ul id="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href='/hero'>create hero</a></li>
+                    <li><a href='/squad1'>create squad</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
 <div class="container">
+<div class="stylee">
     <center>
         <h1> ENTER DETAILS</h1>
+        <p><em>it's your time to recruit your favorite hero</em></p>
         <form method="post" action='/heroes'>
             <div class="form-group">
                 <label for="name">Enter Hero Name</label>
-                <input type="text" id="name" name="name" class="form-control">
+                <input type="text" id="name" name="name" class="form-control" required>
             </div>
             <div class="form-group">
                 <label for="age">Enter Hero Age</label>
-                <input type="number" id="age" name="age" class="form-control">
+                <input type="number" id="age" name="age" class="form-control" required>
             </div>
             <div class="form-group">
                 <label for="superpower">Enter Hero Superpower</label>
-                <input type="text" id="superpower" name="superpower" class="form-control">
+                <input type="text" id="superpower" name="superpower" class="form-control" required>
             </div>
             <div class="form-group">
                 <label for="weakness">Enter Hero Weakness</label>
-                <input type="text" id="weakness" name="weakness" class="form-control">
+                <input type="text" id="weakness" name="weakness" class="form-control" required>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" style="background-color: #00001a ;">Submit</button>
         </form>
     </center>
+</div>
 </div>
 
 <!--hero.hbs.-->

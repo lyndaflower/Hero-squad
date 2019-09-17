@@ -5,29 +5,29 @@
 <!--squad.hbs.-->
 {{#partial "content"}}
 
+
+    <div class="  navigation">
+        <nav id="navbar" class="">
+            <div class="nav-wrapper">
+                <ul id="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href='/hero'>create hero</a></li>
+                    <li><a href='/squad1'>create squad</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
     <div class="container">
-
-        <div class="taa">
-
+        <div class="taa" style="text-align: center;">
             <h1>MY SQUAD </h1>
-
-            <table>
-                <tr>
-                    <td> Name </td><br>
-                    <td> Age </td><br>
-                    <td> SuperPower </td><br>
-                    <td> Weakness </td><br>
-                </tr>
-
-            </table>
-
-            <a href='/hero'>ADD HERO</a>
-            <br>
-            <a href='/'>HOME</a>
-
+            <p> Name :{{name}}</p>
+            <p> Age :{{age}}</p>
+            <p> Superpower: {{superpower}}</p>
+            <p></p>
         </div>
     </div>
-    <!--check.hbs.-->
+    <!--squad.hbs.-->
 {{/partial}}
 
 {{> layout.hbs}}
