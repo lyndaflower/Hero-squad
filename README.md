@@ -6,7 +6,7 @@
 <img src="images/squad">
 <img src="images/checkS">
 # Author 
-#####LYNDA FLOWER
+LYNDA FLOWER
 
 # DESCRIPTION
 This is an app that allows user to recruit a well-balanced team of superheroes. The superheros also must be able to be added into a super hero group called superhero-squad hence the name Hero-Squad.
@@ -32,7 +32,7 @@ Gradle is used as the build tool and can be installed with sdkman:
 sdk install gradle
 
 #SETUP/INSTALLATION
-####{follow the below instructions for set up.}
+{follow the below instructions for set up.}
 
 1.You will need Internet connection.
 
@@ -66,7 +66,7 @@ gradle run.
 * github-username: lyndaflower.
 #License
 
-#####The app is licensed by MIT. Copyright (c) 2019 Lynda Flower
+The app is licensed by MIT. Copyright (c) 2019 Lynda Flower
 
 
 
