@@ -1,10 +1,12 @@
  # Hero-squad
  Hero-squad display:
-<img src= "images/Home.png">
-<img src="images/Form.png">
-<img src= "images/Successfull.png">
-<img src= "images/Squad-form.png">
-<img src="images/success.png">
+![HOME](src/main/resources/public/images/Home.png);
+![HOME](src/main/resources/public/images/Successfull.png);
+![HOME](src/main/resources/public/images/result.png);
+![HOME](src/main/resources/public/images/squad.png);
+![HOME](src/main/resources/public/images/Squad-form.png);
+![HOME](src/main/resources/public/images/squad.png);
+
 # Author 
 LYNDA FLOWER
 
