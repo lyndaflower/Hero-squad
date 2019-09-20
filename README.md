@@ -8,7 +8,7 @@
 ![HOME](src/main/resources/public/images/squad.png);
 
 # Author 
-LYNDA FLOWER
+UMURERWA Lynda Flower
 
 # DESCRIPTION
 This is an app that allows user to recruit a well-balanced team of superheroes. The superheros also must be able to be added into a super hero group called superhero-squad hence the name Hero-Squad.
@@ -35,7 +35,7 @@ Simply follow the instructions to have sdkman installed and install java:
 2. Gradle
 Gradle is used as the build tool and can be installed with sdkman:
 
-    sdk install gradle
+    `sdk install gradle
 
 # SETUP/INSTALLATION
 **{follow the below instructions for set up.}**
