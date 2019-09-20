@@ -14,12 +14,15 @@ LYNDA FLOWER
 This is an app that allows user to recruit a well-balanced team of superheroes. The superheros also must be able to be added into a super hero group called superhero-squad hence the name Hero-Squad.
 
 
-#User story
+# User story
 
 * Users can click on navigation bar on create hero or crate Squad.
 * Fill the form to add hero or squad he/she want.
 * After filling form you check whether your answers becomes successefully.
+
+
 # PRE-REQUISITES
+
 A couple of things to get you started:
 
 1.Ensure you have Java installed
@@ -27,20 +30,21 @@ A simple way to install Java is using sdkman.
 
 Simply follow the instructions to have sdkman installed and install java:
 
-sdk install java
+    sdk install java
+    
 2. Gradle
 Gradle is used as the build tool and can be installed with sdkman:
 
-sdk install gradle
+    sdk install gradle
 
-#SETUP/INSTALLATION
-{follow the below instructions for set up.}
+# SETUP/INSTALLATION
+**{follow the below instructions for set up.}**
 
 1.You will need Internet connection.
-
+ 
 2.You need to get into the Hero-Squad Repository.
 
-Link:-> https://github.com/lyndaflower/Hero-Squad
+    Link:-> https://github.com/lyndaflower/Hero-Squad
 
 3.From there you can access the Hero-Squad.
 
@@ -50,9 +54,9 @@ Link:-> https://github.com/lyndaflower/Hero-Squad
 
 6.If you have all the Pre-requisites you can run the application.
 
-gradle run.
+    gradle run.
 
-#TECHNOLOGIES USED:
+# TECHNOLOGIES USED:
 
 * Java - source language.
 
@@ -61,12 +65,16 @@ gradle run.
 * Bootstrap.
 
 * Cascading Style Sheets.
-#Support & Contact
+
+
+# Support & Contact
   
 *  Email Address: umurerwalynda@gmail.com.
   
 * github-username: lyndaflower.
-#License
+
+
+# License
 
 The app is licensed by MIT. Copyright (c) 2019 Lynda Flower
 
